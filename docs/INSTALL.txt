@@ -1,0 +1,17 @@
+ploneconf2014.contenttype Installation
+--------------------------------------
+
+To install ploneconf2014.contenttype using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``ploneconf2014.contenttype`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        ploneconf2014.contenttype
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
